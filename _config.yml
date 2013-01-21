@@ -1,2 +1,8 @@
+title: Amit Snyderman
+url: http://amitsnyderman.com
+author:
+  name: Amit Snyderman
+  email: amit@amitsnyderman.com
+
+permalink: /:year/:month/:day/:title
 pygments: true
-permalink: pretty
