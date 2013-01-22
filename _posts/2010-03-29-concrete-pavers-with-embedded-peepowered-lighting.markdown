@@ -19,7 +19,7 @@ Two ideas were in the running:
 
 Ultimately I was intrigued by developing a sustainable street lighting system powered by reusable waste. The general vision was to produce something reminiscent of the following:
 
-<a href="http://www.flickr.com/photos/69613750@N00/4596813205" title="View 'Examples of paver lighting' on Flickr.com"><img border="0"width="500"alt="Examples of paver lighting"src="http://farm5.static.flickr.com/4040/4596813205_a949d252fb.jpg" height="375"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4596813205" title="View 'Examples of paver lighting' on Flickr.com"><img border="0" width="500" alt="Examples of paver lighting" src="http://farm5.static.flickr.com/4040/4596813205_a949d252fb.jpg" height="375"/></a>
 
 ## Proof-of-Concept Tests
 
@@ -73,13 +73,13 @@ I really think there's a potential for something like this, whether it be used i
 
 The following catalog potential sources of urban pee, examples of public urinals in existence across the globe, and an art project by Spanish artists collective [Luzinterruptus.com][luz] which attempts to draw attention to public urinating with hope to remind people to abstain from this anti social behavior.
 
-<a href="http://www.flickr.com/photos/69613750@N00/4597428064" title="View 'Examples of pee producers' on Flickr.com"><img border="0"width="500"alt="Examples of pee producers"src="http://farm4.static.flickr.com/3399/4597428064_dd48d56a93.jpg"height="375"/></a>
-<a href="http://www.flickr.com/photos/69613750@N00/4596813471" title="View 'Examples of public urinals' on Flickr.com"><img border="0"width="500"alt="Examples of public urinals"src="http://farm4.static.flickr.com/3357/4596813471_fda1106849.jpg"height="375"/></a>
-<a href="http://www.flickr.com/photos/69613750@N00/4597427506" title="View 'Pee Visualization' on Flickr.com"><img border="0"width="500"alt="Pee Visualization"src="http://farm4.static.flickr.com/3514/4597427506_3f47e1a86b.jpg"height="375"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4597428064" title="View 'Examples of pee producers' on Flickr.com"><img border="0" width="500" alt="Examples of pee producers" src="http://farm4.static.flickr.com/3399/4597428064_dd48d56a93.jpg" height="375"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4596813471" title="View 'Examples of public urinals' on Flickr.com"><img border="0" width="500" alt="Examples of public urinals" src="http://farm4.static.flickr.com/3357/4596813471_fda1106849.jpg" height="375"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4597427506" title="View 'Pee Visualization' on Flickr.com"><img border="0" width="500" alt="Pee Visualization" src="http://farm4.static.flickr.com/3514/4597427506_3f47e1a86b.jpg" height="375"/></a>
 
 And below is the presentation given in class:
 
-<div style="width:425px" id="__ss_3948563"><object id="__sse3948563" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=pee-lighting-100503090356-phpapp02&rel=0&stripped_title=peepowered-sidewalk-lighting" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse3948563" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=pee-lighting-100503090356-phpapp02&rel=0&stripped_title=peepowered-sidewalk-lighting" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div>
+<div style=" width:425px" id="__ss_3948563"><object id="__sse3948563" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=pee-lighting-100503090356-phpapp02&amp;rel=0&amp;stripped_title=peepowered-sidewalk-lighting" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse3948563" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=pee-lighting-100503090356-phpapp02&amp;rel=0&amp;stripped_title=peepowered-sidewalk-lighting" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div>
 
 [chinatown]: http://maps.google.com/places/us/ny/new-york/manhattan/walker-st/72/-chinatown-building-supply-inc?hl=en&gl=us
 [luz]: http://www.luzinterruptus.com/

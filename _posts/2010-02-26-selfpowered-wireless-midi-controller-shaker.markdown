@@ -148,7 +148,7 @@ Besides the ability to power itself, the device was in fact finished and a perfe
 		a_last.x = a_current.x;
 		a_last.y = a_current.y;
 		a_last.z = a_current.z;
-	
+
 		if (ioSample.isAnalogEnabled(IN_X))
 			a_current.x = ioSample.getAnalog(IN_X, 0);
 		if (ioSample.isAnalogEnabled(IN_Y))
@@ -159,7 +159,7 @@ Besides the ability to power itself, the device was in fact finished and a perfe
 
 	int shake() {
 		readAccelerometer();
-	
+
 		return (a_current.x - a_last.x) + (a_current.y - a_last.y) + (a_current.z - a_last.z);
 	}
 
@@ -170,7 +170,7 @@ Besides the ability to power itself, the device was in fact finished and a perfe
 			return;
 		if (xbee.getResponse().getApiId() != RX_16_IO_RESPONSE)
 			return;
-	
+
 		xbee.getResponse().getRx16IoSampleResponse(ioSample);
 
 		if (!ioSample.containsAnalog())

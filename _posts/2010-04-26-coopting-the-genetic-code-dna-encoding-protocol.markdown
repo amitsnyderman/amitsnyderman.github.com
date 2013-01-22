@@ -134,7 +134,7 @@ Evolving oral tradition into **hereditary storytelling**.
 
 Below is the presentation given in class:
 
-<div style="width:425px" id="__ss_3948290"><object id="__sse3948290" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dna-encoding-protocol-100503084421-phpapp01&rel=0&stripped_title=dna-encoding-protocol" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse3948290" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dna-encoding-protocol-100503084421-phpapp01&rel=0&stripped_title=dna-encoding-protocol" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div>
+<div style="width:425px" id="__ss_3948290"><object id="__sse3948290" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dna-encoding-protocol-100503084421-phpapp01&amp;rel=0&amp;stripped_title=dna-encoding-protocol" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse3948290" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dna-encoding-protocol-100503084421-phpapp01&amp;rel=0&amp;stripped_title=dna-encoding-protocol" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object></div>
 
 [codons]: http://upload.wikimedia.org/wikipedia/en/d/d6/GeneticCode21-version-2.svg
 [encode]: http://amitsnyderman.com/school/designfrontiers/encoder.php

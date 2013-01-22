@@ -9,7 +9,10 @@ tags:
 ---
 For our BEAM Bot assignment, Andrew Styer and I worked on creating a solar chime. Based on the [Miller Solar Engine][miller], the concept was to use the sporadic voltage bursts of the engine to drive a small pager motor, raking against taught wires with an attached pick as it spins.
 
-<a href="http://www.flickr.com/photos/69613750@N00/4508548215" title="View 'solar-chimes' on Flickr.com"><img border="0" width="240" alt="solar-chimes" src="http://farm5.static.flickr.com/4041/4508548215_533b121866_m.jpg" height="228"/></a> <a href="http://www.flickr.com/photos/69613750@N00/4508441546" title="View 'IMG_3713' on Flickr.com"><img border="0" width="180" alt="IMG_3713" src="http://farm3.static.flickr.com/2139/4508441546_8d7d15c579_m.jpg" height="240"/></a> <a href="http://www.flickr.com/photos/69613750@N00/4508441172" title="View 'IMG_3712' on Flickr.com"><img border="0" width="180" alt="IMG_3712" src="http://farm5.static.flickr.com/4043/4508441172_17e585a468_m.jpg" height="240"/></a> <a href="http://www.flickr.com/photos/69613750@N00/4507800819" title="View 'IMG_3710' on Flickr.com"><img border="0" width="180" alt="IMG_3710" src="http://farm3.static.flickr.com/2172/4507800819_48a3363e2d_m.jpg" height="240"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4508548215" title="View 'solar-chimes' on Flickr.com"><img border="0" width="240" alt="solar-chimes" src="http://farm5.static.flickr.com/4041/4508548215_533b121866_m.jpg" height="228"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4508441546" title="View 'IMG_3713' on Flickr.com"><img border="0" width="180" alt="IMG_3713" src="http://farm3.static.flickr.com/2139/4508441546_8d7d15c579_m.jpg" height="240"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4508441172" title="View 'IMG_3712' on Flickr.com"><img border="0" width="180" alt="IMG_3712" src="http://farm5.static.flickr.com/4043/4508441172_17e585a468_m.jpg" height="240"/></a>
+<a href="http://www.flickr.com/photos/69613750@N00/4507800819" title="View 'IMG_3710' on Flickr.com"><img border="0" width="180" alt="IMG_3710" src="http://farm3.static.flickr.com/2172/4507800819_48a3363e2d_m.jpg" height="240"/></a>
 
 Our Miller Engine used the following components:
 
@@ -22,7 +25,7 @@ We used these components sized as such because we were driving a motor that woul
 
 An example of the motor working with this circuit follows:
 
-<object type="application/x-shockwave-flash" width="400" height="300" data="http://www.flickr.com/apps/video/stewart.swf?v=71377" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&photo_secret=a1c3a175fc&photo_id=4507903225"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=71377"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=71377" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&photo_secret=a1c3a175fc&photo_id=4507903225" height="300" width="400"></embed></object>
+<object type="application/x-shockwave-flash" width="400" height="300" data="http://www.flickr.com/apps/video/stewart.swf?v=71377" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"> <param name="flashvars" value="intl_lang=en-us&amp;photo_secret=a1c3a175fc&amp;photo_id=4507903225"></param> <param name="movie" value="http://www.flickr.com/apps/video/stewart.swf?v=71377"></param> <param name="bgcolor" value="#000000"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/video/stewart.swf?v=71377" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-us&amp;photo_secret=a1c3a175fc&amp;photo_id=4507903225" height="300" width="400"></embed></object>
 
 We ran into two issues that prevented this project from materializing as we had imagined:
 
