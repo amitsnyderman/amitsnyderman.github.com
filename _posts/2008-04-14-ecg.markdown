@@ -1,0 +1,23 @@
+---
+layout: post
+title: "ECG."
+date: 2008-04-14T01:05:05+00:00
+categories:
+tags:
+- school
+- itp
+---
+So after many hours of researching, it seems that there are three predominant methods for reading a person's pulse:
+
+1. **LED/Photocell Finger Method:** Found in local drugstores and basic hospital heart monitoring, essentially you shine a light through your finger and catch it on the other side, where fluctuations in the amount of light shone correlate with pulsing blood levels. *Cheap and a relatively easy circuit to build*.
+
+2. **Electrode Method:** Used in [ECG/EKG][ECG] applications, uses electrodes attached to the body to measure the electrical activity of the beating heart. [DIY circuits][OpenEEG] all come with the caveat of potential shock and death. *Cheap but more complicated, potentially harmful, circuits*.
+
+3. **Buy Method:** Use an off-the-shelf [heart rate monitor][monitor] such as those sold by Polar, which come in a [chest band][polarT31] (~$40) and [wireless receiver][polarWRL] ($14.95). The also sell an [OEM board][polarOEM]. *Expensive but easy and reliable*.
+
+[ECG]:      http://en.wikipedia.org/wiki/Electrocardiogram
+[OpenEEG]:  http://openeeg.sourceforge.net/
+[monitor]:  http://en.wikipedia.org/wiki/Heart_rate_monitor
+[polarT31]: http://www.polarusa.com/products/fseries/T31.asp?Cat=medical&subc=cardiac&Prod=f4
+[polarWRL]: http://www.sparkfun.com/commerce/product_info.php?products_id=8660
+[polarOEM]: http://www.polarusa.com/manufacturers/products/products.asp

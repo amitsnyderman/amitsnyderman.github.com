@@ -1,0 +1,181 @@
+---
+layout: post
+title: "Pong."
+date: 2008-02-23T18:50:08+00:00
+categories:
+tags:
+- school
+- itp
+---
+For our second Networked Objects assignment Tom setup a networked pong server for which we were required to make a pong controller that connected to and played pong with other clients connected to the server. Twas to be a showdown in class.
+
+With pong requiring such a basic interface (i.e. go left, go right), I was more interested in the action being fun, maybe making you sweat a little. So I made two big buttons, placed them on chairs spread a few feet apart, and mimed musical chairs to control the pong paddle. Rather than using LEDs to indicate when a button is pressed, a vibrating motor was placed in each controller, resulting in a little buzz to your bum while sitting on a button.
+
+<a href="http://www.flickr.com/photos/69613750@N00/2288590939" title="View 'Pong Paddles' on Flickr.com"><img src="http://farm4.static.flickr.com/3172/2288590939_d08c7aa41f_m.jpg" alt="Pong Paddles" border="0" width="240" height="180" /></a>
+<a href="http://www.flickr.com/photos/69613750@N00/2288590947" title="View 'Pong Paddle Insides' on Flickr.com"><img src="http://farm3.static.flickr.com/2326/2288590947_5e1a1c10b0_m.jpg" alt="Pong Paddle Insides" border="0" width="240" height="180" /></a>
+<a href="http://www.flickr.com/photos/69613750@N00/2288590951" title="View 'Pong Paddle Vibrating motor' on Flickr.com"><img src="http://farm3.static.flickr.com/2363/2288590951_bcc399447a_m.jpg" alt="Pong Paddle Vibrating motor" border="0" width="240" height="180" /></a>
+<a href="http://www.flickr.com/photos/69613750@N00/2288660799" title="View 'Pong Paddles Schematic' on Flickr.com"><img src="http://farm3.static.flickr.com/2128/2288660799_02338f0e86_m.jpg" alt="Pong Paddles Schematic" border="0" width="240" height="210" /></a>
+
+Alas, aside from playing against myself at home, these paddles weren't able to officially compete.
+
+Below is the Arduino code, modified from [Tom's client code][http://www.makingthingstalk.com/chapter5/36/] to support an on/off toggle switch and accommodate my specific IO needs and wiring.
+
+	/*
+		Pong client
+		This program enables an Arduino to control one paddle
+		in a networked Pong game.
+	*/
+
+	#define SPEED 50
+
+	#define DISCONNECTED         0
+	#define CONNECTED            1
+	#define CONNECTING           2
+
+	#define DEVICE_RESET_PIN     2
+	#define CONNECT_TOGGLE_PIN   3
+	#define DISCONNECTED_LED_PIN 10
+	#define CONNECTING_LED_PIN   11
+	#define CONNECTED_LED_PIN    12
+
+	#define LEFT_BUTTON_PIN      5
+	#define RIGHT_BUTTON_PIN     4
+	#define LEFT_LED_PIN         7
+	#define RIGHT_LED_PIN        6
+
+	int status = DISCONNECTED;
+	bool should_connect, should_disconnect = false;
+	bool toggle, last_toggle = false;
+	bool left, right = false;
+
+	void setup() {
+		pinMode(DEVICE_RESET_PIN, INPUT);
+		pinMode(CONNECT_TOGGLE_PIN, INPUT);
+		pinMode(DISCONNECTED_LED_PIN, OUTPUT);
+		pinMode(CONNECTED_LED_PIN, OUTPUT);
+		pinMode(CONNECTING_LED_PIN, OUTPUT);
+		pinMode(LEFT_BUTTON_PIN, INPUT);
+		pinMode(RIGHT_BUTTON_PIN, INPUT);
+		pinMode(LEFT_LED_PIN, OUTPUT);
+		pinMode(RIGHT_LED_PIN, OUTPUT);
+
+		Serial.begin(9600);
+
+		resetDevice();
+		blink(3);
+	}
+
+	void loop() {
+		readSensors();
+		setStatus();
+		stateCheck();
+		delay(SPEED);
+	}
+
+	void readSensors() {
+		toggle = (digitalRead(CONNECT_TOGGLE_PIN) == HIGH);
+		left   = (digitalRead(LEFT_BUTTON_PIN) == HIGH);
+		right  = (digitalRead(RIGHT_BUTTON_PIN) == HIGH);
+	
+		if (last_toggle != toggle) {
+			should_connect = (toggle == true);
+			should_disconnect = (toggle == false);
+			last_toggle = toggle;
+		}
+	}
+
+	void setStatus() {
+		switch (status) {
+		case CONNECTED:
+			digitalWrite(CONNECTED_LED_PIN, HIGH);
+			digitalWrite(CONNECTING_LED_PIN, LOW);
+			digitalWrite(DISCONNECTED_LED_PIN, LOW);
+			(left) ?
+				digitalWrite(LEFT_LED_PIN, HIGH):
+				digitalWrite(LEFT_LED_PIN, LOW);
+
+			(right) ?
+				digitalWrite(RIGHT_LED_PIN, HIGH):
+				digitalWrite(RIGHT_LED_PIN, LOW);
+			break;
+		
+		case CONNECTING:
+			digitalWrite(CONNECTED_LED_PIN, LOW);
+			digitalWrite(CONNECTING_LED_PIN, HIGH);
+			digitalWrite(DISCONNECTED_LED_PIN, LOW);
+			break;
+		
+		case DISCONNECTED:
+			digitalWrite(CONNECTED_LED_PIN, LOW);
+			digitalWrite(CONNECTING_LED_PIN, LOW);
+			digitalWrite(DISCONNECTED_LED_PIN, HIGH);
+			digitalWrite(LEFT_LED_PIN, LOW);
+			digitalWrite(RIGHT_LED_PIN, LOW);
+			break;
+		}
+	}
+
+	void stateCheck() {
+		switch (status) {
+		case CONNECTED:
+			while (Serial.available() > 0) {
+				if (Serial.read() == 'D') {
+					status = DISCONNECTED;
+				}
+			} 
+		
+			if (left) {
+				Serial.print('l');
+				left = false;
+			}
+		
+			if (right) {
+				Serial.print('r');
+				right = false;
+			}
+			
+			if (should_disconnect) {
+				Serial.print('x');
+				should_disconnect = false;
+			}
+			break;
+
+		case DISCONNECTED:
+			if (should_connect) {
+				deviceConnect();
+				should_connect = false;
+			}
+			break;
+	
+		case CONNECTING:
+			if (Serial.available()) {
+				if (Serial.read() == 'C') {
+					status = CONNECTED;
+				} else {
+					deviceConnect();
+				}
+			}
+			break;
+		}
+	}
+
+	void deviceConnect() {
+		Serial.print("C128.122.151.62/8080\n\r");
+		status = CONNECTING;
+	}
+
+	void resetDevice() {
+		digitalWrite(DEVICE_RESET_PIN, LOW);
+		delay(50);
+		digitalWrite(DEVICE_RESET_PIN, HIGH);
+		delay(2000);
+	}
+
+	void blink(int count) {
+		for (int i = 0; i < count; i++) {
+			digitalWrite(CONNECTING_LED_PIN, HIGH);
+			delay(200);
+			digitalWrite(CONNECTING_LED_PIN, LOW);
+			delay(200);
+		}
+	}

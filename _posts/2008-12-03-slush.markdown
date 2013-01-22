@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Slush"
+date: 2008-12-03T23:44:50+00:00
+categories:
+tags:
+- school
+- itp
+---
+So rather than choosing or creating a material, ["do[ing] something, do[ing] something to that, and then do[ing] something to that"](http://www.brainyquote.com/quotes/quotes/j/jasperjohn360567.html), I decided to utilize a material in its native form and do stuff *with* it. We recently bought de-icing salt (calcium chloride specifically) for our front sidewalk in preparation for the winter and a few things came to mind:
+
+* New York streets get na-asty with slush in the winter due to a combination of melting snow and salt
+* Dissolved salt results in an ionic solution
+* [Lemon batteries](http://en.wikipedia.org/wiki/Lemon_battery) are cool
+
+With an abundance of this solution underfoot for a majority of the wintertime and a curiosity as to what else could potentially serve as a battery, I've been toying with the **calcium chloride solution** as my material.
+
+If any sort of power could be generated from a reaction leveraging this solution, there are a few interesting applications that could arise, especially given the temporal and circumstantial existence of the material, its presence serves as a switch for its own reaction.
+
+My first inclination is to use this energy for the creation of heat (or more heat since its interaction with water is an exothermic reaction). After all the presence of snow/slush generally implies cold weather. A ready circuit embedded in the roadway could generate heat and expedite the melting process. Once melted the circuit breaks. Or embedded on a shoe one can imagine environmentally triggered boot warmers.
+
+So the first test was to see if this would generate anything utilizing similar materials as to that of the lemon battery (zinc and copper electrodes). Perhaps if I could have recalled anything from general chemistry and redox reactions I may have stopped here, but alas, given a lack of theory why not try and see.
+
+With a single circuit I was actually able to generate 0.6V, comparable to that of a similar volume of lemon juice concentrate. In series 1.5V. Looking good! My assumption then was that putting a few of these guys in series would result in something enough for a proof-of-concept... lighting an LED.
+
+<a href="http://www.flickr.com/photos/69613750@N00/3081710778" title="View 'Calcium Chloride Battery' on Flickr.com"><img src="http://farm4.static.flickr.com/3264/3081710778_572fd99e88_m.jpg" alt="Calcium Chloride Battery" border="0" width="240" height="180" /></a>
+<a href="http://www.flickr.com/photos/69613750@N00/3081710598" title="View 'Calcium Chloride Battery' on Flickr.com"><img src="http://farm4.static.flickr.com/3241/3081710598_6e832fb126_m.jpg" alt="Calcium Chloride Battery" border="0" width="240" height="180" /></a>
+
+From there I set about embedding the circuit in a shoe. With holes in the soles already I sacrificed my red Chucks. 5 circuits were put into series embedded in the sole, with the leads terminating at the grommets on the side wall of the shoe. I was pretty proud of that novelty.
+
+Then for the test: dunking. In a big bowl was mixed about two handfuls of salt with roughly 4 cups of water. In went the shoe. And out came... ~0.7V. Not even enough to light an LED.
+
+<a href="http://www.flickr.com/photos/69613750@N00/3080871723" title="View 'Calcium Chloride Battery' on Flickr.com"><img src="http://farm4.static.flickr.com/3152/3080871723_5cb03714a3_m.jpg" alt="Calcium Chloride Battery" border="0" width="240" height="180" /></a>
+<a href="http://www.flickr.com/photos/69613750@N00/3081710404" title="View 'Calcium Chloride Battery' on Flickr.com"><img src="http://farm4.static.flickr.com/3205/3081710404_f9e8817cba_m.jpg" alt="Calcium Chloride Battery" border="0" width="240" height="180" /></a>
+
+So I'm not sure I've done anything really except realize that I really need to re-familiarize myself with even remedial chemistry before getting serious about being successful with anything like this.
+
+My hunch, since that's all it really is, is that unlike a series of lemons which are self contained units isolated from eachother, the solution in this case was shared across circuits, resulting in a big parallel pool of electron mush. The shoe circuit isn't really in series at all as it turns out.
+
+Conceptually I'm still interested in leaching existing behavior in our surround for other utilities. This one however may have been a bit of a fantasy...

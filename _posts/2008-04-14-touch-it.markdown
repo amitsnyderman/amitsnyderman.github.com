@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Touch It."
+date: 2008-04-14T23:30:26+00:00
+categories:
+tags:
+- school
+- itp
+---
+Feeling somewhat guilty that at the moment physical interaction (or lack of it) is almost secondary to the visualization.
+
+We're all networked objects, with many intentional and circumstantial relationships. Social networks and family trees and buddy lists render these connections visually, functionally. In the context of relationships I find maintaining these all very boring, even stressful at times. In contrast to curating these objects--and I'm specifically thinking of jam sessions I've been in--there's something effortless and refreshing when interactions spontaneously, subconsciously occur. Coincidences that feel planned. Steven Strogatz's *Sync: The Emerging Science of Spontaneous Order* (which surfaced during research and fits well with my desire to read more non-fiction) explores the possibility of a subtly emerging order in seemingly chaotic moments. Like [fireflies synchronously blinking][firefly], or a women's dorm [simultaneously menstruating][period], do humans develop other more subtle networks based in synchronous behavior, due to proximity, shared experiences?
+
+Specifically can heartbeat be shown to respond to the dynamics of a crowd? If not can we still make it pretty...
+
+I'm finding the need to abstract the "network" away from the specifics of XBee/Bluetooth/802.blah. I guess that once you can visualize and discern the dynamics of the network, that's when you can start playing around with factors that can tease, manipulate it.
+
+[firefly]: http://www.dlia.org/atbi/species/Animalia/Arthropoda/Insecta/Coleoptera/Elateroidea/Lampyridae/Photinus_carolinus.shtml
+[period]: http://en.wikipedia.org/wiki/McClintock_effect

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Brr."
+date: 2008-04-16T15:12:38+00:00
+categories:
+tags:
+- school
+- itp
+---
+Just picked up my Polar CHR-39025379 board (thanks [Anh][anh]) sans data sheet. Luckily Dan O. had a copy on the ["Computers for the Rest of You" class page][rest] (hidden in a directory listing) that I'm leaving here for future reference as a PDF: [Polar CHR-39025379 Data Sheet][datasheet]
+
+It's a little larger than I had hoped for but should serve well as a quick way to get up and prototyping.
+
+[anh]: http://www.kidmang.com/
+[rest]: http://itp.nyu.edu/~dbo3/RestOfYou/
+[datasheet]: http://blogs.nyu.edu/blogs/as860/iameat/uploads/polar-CHR39025379-datasheet.pdf

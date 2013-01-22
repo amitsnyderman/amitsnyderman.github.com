@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Shlamp"
+date: 2008-09-24T23:31:36+00:00
+categories:
+tags:
+- school
+- itp
+---
+There are many spaces in our everyday lives that are reserved for specific objects. Streetside parking spaces for cars (challenged by [PARK(ing)](http://www.parkingday.org/)), toilet paper holders, CD and books occupying 20% of your square footage, etc. Having lived in small apartments for the last 10 years, one resents (and cherishes) those objects receiving infrequent use yet occupying such valuable volume and space.
+
+What happens when you replace some of those objects with others occupying the same volume? Plugins, much like the concept used in software design, embed into existing spaces, sometimes places reserved for them, other times swapped with another. The space overall retains its intended functionality yet the plugin injects its own character, subtly or even drastically changing the utility of the space.
+
+<a href="http://www.flickr.com/photos/69613750@N00/2886832118" title="View 'Bookshelf Lamp' on Flickr.com"><img src="http://farm4.static.flickr.com/3287/2886832118_4cdde0ccaa.jpg" alt="Bookshelf Lamp" border="0" width="500" height="375" /></a>
+
+Thus consider the space remaining on a bookshelf when a book is removed. *Reading Lamp* inconspicuously inserts itself alongside your book collection, introducing a soft light into the space. And being cordless, the lamp can be moved, say stacked on a night table.
+
+Other utilities can exist for this slim space: a slight vertical drawer or a planter spilling greenery from the shelf.

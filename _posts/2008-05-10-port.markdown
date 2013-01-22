@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Port."
+date: 2008-05-10T22:45:28+00:00
+categories:
+tags:
+- school
+- itp
+---
+For the [bio-feedback plugin notification framework](http://blogs.nyu.edu/blogs/as860/iameat/2008/05/prosthesis.html), the system ended up being programmed in Python, resulting in some useful tools for working with serial data and XBee radios.
+
+Why Python? No particular reason, though its use evolved because of 1) Python's awesome [`cmd` module](http://docs.python.org/lib/module-cmd.html), and 2) an existing and convenient [serial library](http://pyserial.sourceforge.net/).
+
+These tools resulted in the creation of an [XBee shell application](http://blogs.nyu.edu/blogs/as860/iameat/2008/04/serial.html) and a port of [Rob Faludi's XBee Processing library](http://www.faludi.com/code/xbee-api-library-for-processing/) to Python.
+
+These tools are available as a [Google code project](http://code.google.com/p/python-xbee). Please help make them better.

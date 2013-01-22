@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Softness: Week 1: 9/4/08"
+date: 2008-09-11T21:55:22+00:00
+categories:
+tags:
+- school
+- itp
+---
+**Assignment:** Make a "thing" that communicates what you are interested exploring in this class. Specifically address/communicate the theme of "procrastination".
+
+Fucking brilliant. I'm going to procrastinate doing the procrastination project.
+
+### What tasks do I tend to procrastinate?
+
+* **Writing:** I've never enjoyed writing; self-editing takes over my process prematurely at the expense of any expressiveness, and am generally bored by my own writing. So I avoid it. I am pretty good at writing technical documentation, but naturally the tedium of doing so is a reason unto itself for procrastination.
+
+* **Things that are wrong:** I hate doing things that I disagree with. Happens often working at a large bureaucracy. Bossy smart girlfriends also lead to these moments.
+
+* **Unsure of where to start:** Meta-procrastination right now. Can't even start on answering this. It's not that I'm overwhelmed, though this form generally occurs on larger projects, I tend to get distracted by my own ideas for the various components of a project. It's an ADD-like counter-productive thought spiral. Breaks ensue... work lingers.
+
+* **Infinitely researched:** Research is a form of procrastination for me. Projects requiring research inspire their own vices for procrastination. At some point I have to declare that I know enough to feel comfortable just digging in. Being well informed leads to...
+
+* **Multiple implementation possibilities:** Having to make a decision--the *best* decision--leads to doing more research. Especially when executing costs money. Am I getting the best price? Are the materials being efficiently used? Technology and construction projects generally suffer from this problem.
+
+* **No urgency:** If I can clean the shower tomorrow night, why not get distracted tonight?
+
+* **Require extended periods of thought/work:** This might be the most damaging tendency I have, especially when it comes to projects I personally want to do--those not for work or school. Many of these projects are for me. And solitary. Finding and defending the time required demands a certain degree of selfishness that I don't come naturally to. Plus I enjoy the non-solitary things to, so why not do them?

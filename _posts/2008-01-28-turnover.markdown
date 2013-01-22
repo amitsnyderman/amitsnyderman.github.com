@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Turnover."
+date: 2008-01-28T14:08:02+00:00
+categories:
+tags:
+- school
+- itp
+---
+Yup, school started again. With it comes required journal/blog posting, and the truth is that I kind of enjoyed it last semester. So for this new blogging season we're (me) gonna do things a bit differently:
+
+1. "Back to School" was a lame blog title. Whenever I introduce myself these days, "Amit" seems to get translated to "I'm Eet", so we're going to honor this little moment. In practice my name corrections are benign in comparison to some of the other foreign students at ITP.
+2. Finally gave in to purchasing [MarsEdit](http://www.red-sweater.com/marsedit/). Despite being the administrator and developer of the NYU Blogs service, a desktop client is much more comfortable to work with than the web interface.
+
+I'm also really disappointed by the themes available for Movable Type 3, lusting for our Movable Type 4 upgrade to happen a bit sooner, but until then, expect a weekly ugly theme rotation. Actually, don't expect it. Just don't be surprised by it.

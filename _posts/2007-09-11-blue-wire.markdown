@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Blue wire."
+date: 2007-09-11T11:20:20+00:00
+categories:
+- Tips
+tags:
+- school
+- itp
+---
+It's pretty for toggle switches and helping you not confuse the polarity of your circuit.

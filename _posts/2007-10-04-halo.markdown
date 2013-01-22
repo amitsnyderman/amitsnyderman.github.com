@@ -1,0 +1,198 @@
+---
+layout: post
+title: "Halo."
+date: 2007-10-04T12:32:20+00:00
+categories:
+tags:
+- school
+- itp
+---
+Below follows some research and notes for the midterm project, the group having devised what seems to be an aura/chakra mirror feedback loop, resulting in a healing immersive art installation. With lights and sound.
+
+I'm torn between thinking this could be cool and an arguable level of bullshit that'll be incredibly difficult to realize. But hey, I'm here to explore and take chances.
+
+* * *
+
+From Wikipedia's [Aura (paranormal)][ref_aura] article:
+
+> In parapsychology, spirituality and New Age belief, an aura is a subtle field of luminous multicolored radiation surrounding a person or object as a cocoon or halo. An aura may be held to represent or be composed of soul vibrations or chakras, and may reflect the moods or thoughts of the person it surrounds.
+
+In theory, if we can detect and analyze this aura, the environment can be shaped to adjust the person's current mood and thoughts, thus adjusting and shifting their aura to what we'd hope could be a variety of affects.
+
+The manipulating environment can come in many forms, who's scale ranges from a private space, "personal sanctuary", to a large space potentially affecting a collective of people. We'll be choosing a smaller setting for proof-of-concept purposes.
+
+
+#### How do we capture a person's aura? ####
+
+Initially it was assumed that [Kirlian photography][ref_kirlian] would be used to visualize one's aura, but further research reveals that...
+
+> Kirlian photography is completely different from "Aura photography," in which a colorful image is produced of a persons face and upper torso, using various methods of biofeedback. People commonly use the term "Kirlian photography" to erroneously refer to "Aura photography," and vice-versa. The terms have almost become interchangeable, even though the techniques are completely different. This leads to confusion among those who not familiar with the two different techniques. The Kirlian technique is contact photography, in which the subject is in direct contact with the film which is placed upon a metal plate that is charged with high voltage, high frequency electricity. In Aura Photography, no high voltage is involved as with the Kirlian technique, and no direct contact with the film is made. The images made with an Aura camera do not result from coronal discharge, the colors are projected with fiber optics.
+
+Also notable, "inanimate objects such as coins will also produce images on the film in a Kirlian photograph setup," leading one to ask if we're really capturing an emotional affect.
+
+From the [Skeptic's Dictionary][ref_skeptic1]:
+
+> [...] what is recorded is due to quite natural phenomena such as pressure, electrical grounding, humidity and temperature. Changes in moisture (which may reflect changes in emotions), barometric pressure, and voltage, among other things, will produce different 'auras'.
+
+>> Living things...are moist. When the electricity enters the living object, it produces an area of gas ionization around the photographed object, assuming moisture is present on the object. This moisture is transferred from the subject to the emulsion surface of the photographic film and causes an alternation of the electric charge pattern on the film. If a photograph is taken in a vacuum, where no ionized gas is present, no Kirlian image appears. If the Kirlian image were due to some paranormal fundamental living energy field, it should not disappear in a simple vacuum (Hines 2003).
+
+Lots of skeptics. Here's another from the [Skeptical Inquirer][ref_skeptic2]:
+
+> Although the Kirlian aura was claimed to present information about the "bioplasma" or "life-energy" of the object, actually it is only "a visual or photographic image of a corona discharge in a gas, in most cases the ambient air." Moreover, experiments have failed to yield any evidence that the coronal pattern is related "to the physiological, psychological, or psychic condition of the sample," but instead only to finger pressure, moisture, and other mechanical, environmental, and photographic factors (some twenty-two in all). Skeptics observed that even mechanical objects, such as coins or paper clips, could yield a Kirlian "aura" (Watkins and Bickel 1986).
+
+Regardless of what the skeptics say, the fact that we produce and can detect an aural color field is cool nonetheless. So back to the question, how do we capture this?
+
+[ref_aura]:     http://en.wikipedia.org/wiki/Aura_%28paranormal%29
+[ref_chakras]:  http://en.wikipedia.org/wiki/Chakras
+[ref_kirlian]:  http://en.wikipedia.org/wiki/Kirlian_photography
+[ref_skeptic1]:  http://skepdic.com/kirlian.html
+[ref_skeptic2]: http://www.csicop.org/si/2000-05/i-files.html
+
+* [Aura Camera][cam_auracam], "the worlds only self-contained one-step point and shoot  
+fully portable aura photography camera", **special internet sale price $2595.00!**, but seems to have pretty [interesting results][cam_auracamresults].
+* Official [Kirlian Aura Camera][cam_official]
+* [Build][cam_kirlian1] [our][cam_kirlian2] own
+* [Kirlian interactive imaging kit][cam_interactive]
+* [GDV Research][cam_gdv]
+* [DIY Kirlian camera][cam_diy] that uses a salt-water plate and long-exposure capture.
+
+The shit's [expensive][cam_expensive]!
+
+[cam_auracam]:        http://auracam.info/
+[cam_auracamresults]: http://aura.ph/
+[cam_official]:       http://www.kirlian.org/kirlian_camera.htm
+[cam_kirlian1]:       http://www.imagesco.com/articles/kirlian/kirlian-photography.html
+[cam_kirlian2]:       http://www.kirlianlab.com/mkcameras.htm
+[cam_interactive]:    http://www.kirlian.org/interactive.htm
+[cam_expensive]:      http://www.kirlian.org/pricelist.html
+[cam_gdv]:            http://www.kirlian.org/gdvresearch/
+[cam_diy]:            http://www.rmcybernetics.com/projects/DIY_Devices/homemade_kirlian_photos.htm
+
+For any sort of real-time feedback and modulation, quick digital snapshots or video would be ideal. We can simulate this at first until a cheap accessible method of acquiring a Kirlian image is found.
+
+#### What do the colors, distribution patterns, intensity levels, etc mean in an aura? ####
+
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/auras-and-chakras.jpg" class="inline right" />
+
+The [Auras Expert][read_expert] says the following about our auras:
+
+> [...] we live in a sea of energy. Everything is energy, including you. The field of energy around your physical body forms your aura. Every thought, feeling and experience you have affects the vibration of this energy field.
+
+The [Archeosophical Society][read_archeosophical] provides these descriptions:
+
+> The colored aura carries the imprint of the entire light spectrum: red, orange, yellow, green, blue, indigo, violet.
+
+<table>
+<tbody>
+<tr><td>Black</td><td>the dense clouds of the aura and, therefore of the astral body, when tending towards the black indicate a psychic state of malice and hate. A clairvoyant observing someone who is found prey to an excess of anger will see him with his tremendous thought-forms fluttering in his aura, similar to coils of poisonous and heavy smoke, an evident symptom of hate.</td></tr>
+<tr><td style="color:brown;">Brown</td><td>the color rust, reddish-brown and opaque, is avarice. If arranged in parallel stripes it is a crisis of avarice. A gray-brown reveals egoism. Greenish-brown with dark red or scarlet streaks: jealousy.</td></tr>
+<tr><td style="color:red;">Red</td><td>as dark red flashes or streaks, generally on a black background, it denotes rage, and if there is brown, we have the egoism in rage. Who is reviled or oppressed and feels a noble indignation reveals flashes of scarlet on the background of the aura. Sensuality tinges the aura with a bloody and livid red.</td></tr>
+<tr><td style="color:red;">Crimson</td><td>is the manifestation of love with a range of shades. Opaque, oppressive and mixed with the brown of egoism when love considers how much affection it receives from others. If the love is genuine and gives itself without claiming recognition, in a rush of willing self-giving to the beloved, then it expresses itself with a stupendous and pleasing pink color; if, then, this pink is very brilliant, with shades of lilac, then the aura expresses the most spiritual love towards humanity. From these observations we have derived the bases for a spiritual Ascesis, using in pictorial Art the colors which can, with extended use, mold and modify the consciousness of the artist and make him an Initiate for the Kingdom of God.</td></tr>
+<tr><td style="color:orange;">Orange</td><td>is the symptom of ambition and pride, and is often associated with irritability.</td></tr>
+<tr><td style="color:yellow;">Yellow</td><td>high grade of intellectuality. Colored darker and opaque if the intellect is oriented towards the base, and is even more somber if this intellectuality is directed towards egoistic ends. When the aims are elevated and more altruistic then the color is of a brilliant gold, and bright and luminous like the yellow of a daisy.</td></tr>
+<tr><td style="color:gray;">Lead Gray</td><td>expresses a profound depression. When in parallel lines we have avarice and moral imprisonment. A livid gray is a symptom of a state of terror.</td></tr>
+<tr><td style="color:blue;">Light Blue</td><td>the color light blue, ultramarine or cobalt blue indicates the devotion to a very noble spiritual ideal, and if this color gradually rises to a luminous lilac-blue it demonstrates a superior spirituality, while the elevated spiritual tendencies, the lofty aspirations, are indicated by the same color accompanied by sparkling golden stars. If in the aura a light or dark blue is seen we have the religious sentiment; but we could have either pure or bigoted sentiments, nobility or egoism, and in this case we have the hues of indigo and rich violet or a muddy blue-gray of low cults.</td></tr>
+<tr><td style="color:green;">Green</td><td>is a color, which must be studied with insight. Muddy gray-green indicates betrayal and cunning. It is found among savages and in not very evolved people. Light emerald green is versatility, ingenuity, resourcefulness, but without malice or bad intentions. It is the color of those who do everything for others, but seek their praise, gratification and favor only to help them to become stronger. When the green becomes a beautiful, luminous pale blue then it reveals compassion, sympathy and adaptability. Strong vitality is indicated by a bright apple-green.</td></tr>
+<tr><td style="color:violet;">Ultraviolet</td><td>is the purest and most elevated development of the psychic faculty.</td></tr>
+<tr><td>Infrared</td><td>indicates the base psychic faculties of the black sorcerer, the faculties which disgust the Archeosopher and honest people.</td></tr>
+</tbody>
+</table>
+
+O... k. Black sorcerer? Really? These don't really say anything about a moment's emotional state and balance. I don't think blinking some lights in a person's face will really affect a person's intellectual or ambition readings. What else is out there...
+
+The [Auras Expert][read_expertcolors] is a bit more grounded in their interpretations:
+
+> ...chakra colors can change, chakras can contain different colors at the same time, and there can also be colors from the energy of other people inside any chakra. Here are some themes which can help guide the interpretation process...
+
+<table>
+<tbody>
+<tr><td style="color:red;">Red</td><td>lifeforce, survival, raw passion, anger, frustration, menstruation, determination, sense of importance, feeling overwhelmed by change</td></tr>
+<tr><td style="color:orage;">Orange</td><td>sensuality, physical pleasure, emotional self-expression, creativity, lacking reason, lacking self-discipline, health, vitality</td></tr>
+<tr><td style="color:yellow;">Yellow</td><td>mental alertness, analytical thought, happiness, optimism, child-like, ego driven, thinking at expense of feeling</td></tr>
+<tr><td style="color:green;">Green</td><td>healing, peace, nurturing, new growth, fear, need for security, jealousy and envy, balance</td></tr>
+<tr><td style="color:blue;">Blue</td><td>verbal communication, freethinking, relating to structure and organization, emphasis on business, male energies, sadness, possibilities</td></tr>
+<tr><td style="color:purple;">Purple</td><td>wisdom, authoritative, female energies, matriarchal, sense of superiority, controlling, imagination, intuition</td></tr>
+<tr><td style="color:brown;">Brown</td><td>grounding, down to earth, practical, male energies, invalidating, emphasizing body and denying spirit, feeling worth-less</td></tr>
+<tr><td style="color:black;">Black</td><td>issues relating to death, hatred, lack of forgiveness, unresolved karma, dark intentions, shadow games, needing compassion for self</td></tr>
+<tr><td style="color:pink;">Pink</td><td>self-love, tenderness, female energies, gay energies, emphasis on physical appearances, being 'nice' at expense of being 'real'</td></tr>
+<tr><td style="color:gray;">White (Cloudy)</td><td>New Age or religious energy, lacking consciousness, a cover-up, denial, being 'good' at expense of being 'whole'</td></tr>
+<tr><td>White (Clear Light)</td><td>very high spiritual vibration, godly, divine, inspiration, seeing spiritual big picture, compassionate</td></tr>
+<tr><td style="color:gold;">Gold</td><td>high spiritual vibration, integrity, respect, freedom, clearseeing, integrating spirit and body, creating as spirit</td></tr>
+</tbody>
+</table>
+
+And those are just color readings. [Shape][read_expertshape], [size][read_expertsize], and [position][read_expertposition] also come into play for readings.
+
+And does an aura's color directly correlate to one's chakra colors/levels/readings? Do we even know what a Chakra is? The [Chakra Wikipedia][ref_chakras] article seems pretty thorough:
+
+> Chakra are energy centers in the body located at major branchings of the human nervous system, beginning with the base of the spinal column and moving upward. Chakras are considered to be a touch point or nexus of metaphysical and/or biophysical energy of the human body.
+
+And further down:
+
+> In New Age practices, each chakra is often associated with a certain color.
+
+Ok, no mention of correlation to aura except that it too is colorful and New Age'y.
+
+[read_expert]:         http://www.the-auras-expert.com/
+[read_expertauras]:    http://www.the-auras-expert.com/auras.html
+[read_expertshape]:    http://www.the-auras-expert.com/aura-shapes.html
+[read_expertsize]:     http://www.the-auras-expert.com/aura-size.html
+[read_expertposition]: http://www.the-auras-expert.com/aura-position.html
+[read_expertcolors]:   http://www.the-auras-expert.com/chakra-colors.html
+[read_archeosophical]: http://www.archeosofica.org/en/index.php/Estratti-dai-Quaderni-di-Archeosofia/The-Colors-of-the-Aura.html
+
+#### How dynamic is an aura? In what time scale do noticeable changes occur? ####
+
+So can you really affect one's aura and chakra readings? How dynamic is this change and is it observable in say the span of 30 seconds? 5 minutes? 1 hour? 1 day? 1 month?
+
+[Chakra healing][read_experthealing] according to the [Auras Expert][read_expert]:
+
+> The key to chakra healing is developing awareness, releasing blockages and increasing the flow of your own energy through these centers. In our experience, the following four practices have proven to be the most effective tools for chakra healing...
+
+...and more about the [specific chakras][read_expertchakras]. So meditation, therapy, "healing" all shape your chakras over what seems to be a duration longer than we can expect to hold captive a subject.
+
+[read_experthealing]: http://www.the-auras-expert.com/chakra-healing.html
+[read_expertchakras]: http://www.the-auras-expert.com/seven-chakras.html
+
+#### What environmental factors influence one's aura? ####
+
+How would one go about modifying/affecting another's aura? What techniques exist out there, using color, light, and sound? Can this experience be useful for treatment but also made to be beautiful?
+
+If a chakra imbalance is related to deep-seeded foundations built up over time, is this environment produced by the readings of your aura going to manipulate feelings such as personal dissatisfaction, fulfillment, communication or the physical health of our bodies?
+
+Here's some info on [Chakra System Rebalancing][env_rebalance]:
+
+> A chakra system that is in balance is a prerequisite for overall health and harmony of the energy field. After charging any chakras that require it, you will then proceed to rebalance the entire chakra system. You will do this by raising or lowering the activity, the radiatory strength, of any chakra exhibiting under or overactivity&mdash;balancing its activity level with the other chakras, so that all are radiating with the same strength.
+
+> [...] its activity level can then be raised or lowered through the addition of lower or higher colors&mdash;colors above or below its own native true color.
+
+[Color in your life and spirit][env_colorkundalini] according to Kundalini Tantra:
+
+> Colors in your environment affect your chemical balance, causing some pretty strong physical phenomenon. Reds and oranges for instance affect your sense of time and such a waiting room at the doctors or dentists can make your wait seem interminable. A blue or green waiting room will do the opposite.
+
+> Reds and oranges affect the adrenal system, pushing increased energy into your system. In a cascade effect, other related systems may be activated such as the immune system, vascular pulmonary, or sexual systems.
+
+> Greens and blues soothe and allow the time sense to be accelerated so that time seems to go faster and a wait appears shorter than with a red surrounding. Blues and greens trigger the endocrine system and a set of neurotransmitters are produced which calm and inspire a slower gentler spirituality than red.
+
+[Environmental Metaphysics][env_metaphysics] and [Environmental Psychology][env_psych]:
+
+> [...] the metaphysical exploration of environments and their impact on people and animals.
+
+[Color Therapy][env_colortherapy]:
+
+> Colored light can be used directly on the body's health and immuno strength, affecting the body and the emotions. It does not alter the material make up of the body, but rather the vibrational aspect, similar to homeopathy.
+
+[Colorpuncture][env_colorpuncture]:
+
+> The originator of Colorpuncture is a German scientist and naturopath named Peter Mandel who has conducted over 25 years of intensive empirical research to develop this unique system of healing. Colorpuncture involves focusing colored light on acupuncture (and other) points on the skin in order to energize powerful healing impulses in our physical and energy bodies.
+
+> [...] In a Colorpuncture treatment, frequencies of colored light are focused on the skin using a hand-held acu-light tool (see Colorpuncture Products) with specially designed, hand-made interchangeable glass rods which emit different colors of light through a focused tip. Each color consists of different wavelength frequencies of light and therefore communicates different energetic information. Treatments include a specific set of points in a sequence using a prescribed pattern of colors.
+
+Both color therapy and colorpuncture specifically talk about applying color/light to acupuncture and shakra points on the body, however it seems feasible that immersion in an environment soaked in color might have similar effects on an individual or group, perhaps not as targeted or direct, but subtly restorative nonetheless.
+
+[env_colorpuncture]:  http://www.colorpuncture.com/kirlian.html
+[env_colorkundalini]: http://www.kundalini-tantra.com/colorsa.html
+[env_colortherapy]:   http://www.biopulse.org/color.html
+[env_rebalance]:      http://www.chioshealing.com/HealingLevel3/ChakraRebalancing/chakrarebalancing.htm
+[env_metaphysics]:    http://en.wikipedia.org/wiki/Environmental_metaphysics
+[env_psych]:          http://en.wikipedia.org/wiki/Environmental_psychology

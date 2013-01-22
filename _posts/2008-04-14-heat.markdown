@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Heat."
+date: 2008-04-14T21:36:02+00:00
+categories:
+tags:
+- school
+- itp
+---
+Variations on the heat map:
+
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/f01360.gif" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/Heatmap-1.jpg" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/nshm_us02.gif" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/hotmap_us.jpg" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/Heatmap.png" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/heatmap.jpg" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/heatmap.gif" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/heatmap_sunsilk.png" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/Google heat map.jpg" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/art-ajt491829.fig5.jpg" />

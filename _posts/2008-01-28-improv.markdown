@@ -1,0 +1,48 @@
+---
+layout: post
+title: "Improv."
+date: 2008-01-28T16:01:10+00:00
+categories:
+tags:
+- school
+- itp
+---
+First assignment for "Networked Objects":
+
+> **Project 1: Physical Computing Improv:** This project is a quick one for me to get to know what your physical computing skills are. Pick at least one item from each of these three lists, and combine them into a responsive object. Whatever you build should be no larger than a 40-centimeter cube. Your object has to respond to a person's action. It should communicate serially with a screen-based display, and provide the user a way to interact with the display. The interaction must be repeatable, and clear to the person in question. It doesn't have to be meaningful, but it does have to be engaging in some way.
+
+We then get three lists from which to choose an *action*, *thing*, and *response*. Actions and responses include items such as *squeezing*, *tapping*, *color*, *sound*, etc... Things get a little more interesting: *feathers*, *monkey*, *lentils*, *pudding*.
+
+I chose the following--**stroking**, **cup**, **sound**--in an attempt to create a plastic/paper cup that behaves much like a crystal glass. Rubbing its rim results in a resonant hum.
+
+<img src="http://blogs.nyu.edu/as860/iameat/uploads/crystal-paper-cup.png" />
+
+If you're curious, there are some good links describing [resonant][rf1] [frequency][rf2] and why wine glasses have particularly active vocal chords.
+
+[rf1]: http://answers.google.com/answers/threadview?id=156934
+[rf2]: http://recipes.howstuffworks.com/question603.htm
+
+#### Stroking
+
+To sense when the user is stroking the rim (SFW) I'll be using a [cheapy Radio Shack][piezo_part] [piezo transducer][piezo_wiki]. It's more effective for sudden hits, with the rubbing returning a minimum of a signal, but it should be enough to amplify it and filter out any major spikes resulting from smacks.
+
+Found some schematics for a working piezo input circuit at [Tod's blog][piezo_circuit].
+
+[piezo_part]: http://www.radioshack.com/product?productId=2062402
+[piezo_wiki]: http://en.wikipedia.org/wiki/Piezoelectric_sensor
+[piezo_circuit]: http://todbot.com/blog/2006/10/29/spooky-arduino-projects-4-and-musical-arduino/
+
+#### Sound
+
+Initially I had intended to use a piezo buzzer to generate a tone and house all of the mechanicals within the cup itself. Having done a bunch of computer-dependent projects last semester, the idea of a self-contained interactive object appealed to me. However closer reading of the assignment requires serial communication.
+
+Rather than making up my own serial protocol and hacking together something in Processing, why not make a true [MIDI][midi] device?
+
+A quick run down to RadioShack was useless, but the ITP shop and equipment room had MIDI plugs for me to steal and solder, a cable, and an interface to get everything hooked up. Tom's [MIDI Output Lab][midi_lab] was great to get started and test that things were working. And it's pretty cool to have the signal in GarageBand or Logic ready for recording, editing, whatever. Pretty straightforward to make a generic MIDI controller.
+
+[midi]: http://en.wikipedia.org/wiki/MIDI
+[midi_lab]: http://itp.nyu.edu/physcomp/Labs/MIDIOutput
+
+So with a static note, rubbing the cup establishes a note's velocity/volume. I've also added a photocell to the circuit to pick up on the hand's shadow as it goes around the rim of the cup, translating either the light intensity or rate of fluctuation to the note's modulation for a truer resonant feel. I just hope that there's enough of a signal to work with from the piezo, otherwise the subtlety of the action will be lost.
+
+So that's most of the geeky stuff (with schematic and photos to come later). Now to find a suitable cup...

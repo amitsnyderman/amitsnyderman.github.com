@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Timeless."
+date: 2007-09-07T12:25:21+00:00
+categories:
+tags:
+- school
+- itp
+---
+So with the start of [classes](http://itp.nyu.edu/) this week, we've got the Back to School blog. Yaay.

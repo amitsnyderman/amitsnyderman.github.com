@@ -1,0 +1,11 @@
+---
+layout: post
+title: "XBee ADC."
+date: 2008-04-24T00:21:52+00:00
+categories:
+- Tips
+tags:
+- school
+- itp
+---
+When using the XBee's ADC analog in, you **must** also have a VREF input on pin 14.

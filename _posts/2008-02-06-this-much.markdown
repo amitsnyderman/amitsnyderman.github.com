@@ -1,0 +1,18 @@
+---
+layout: post
+title: "This much."
+date: 2008-02-06T13:34:09+00:00
+categories:
+- Links
+tags:
+- school
+- itp
+---
+In class this morning the idea of physically quantifying virtual data -- amongst a bunch of other themes -- came up as a result of seeing the [Wable][wable]. At what scale, order of magnitude or difference in value do we simply stop comprehending? I'm having a hard time swallowing [President Bush's $2.9 trillion 2009 budget proposal][budget] and [Microsoft's $44.6 billion bid for Yahoo][yahoo], let alone how much my recent home buying experience cost in legal fees.
+
+[How Much Does It Buy][howmuch] is a cute way of attempting to illustrate this scale. Of course I can't imagine what a field of 3,064,567,261.97 cows might look like either...
+
+[wable]: http://www.physicalinteractionlab.com/projects/wable
+[howmuch]: http://www.howmuchdoesitbuy.com/
+[budget]: http://www.whitehouse.gov/omb/budget/
+[yahoo]: http://dealbook.blogs.nytimes.com/category/microsofts-yahoo-bid/

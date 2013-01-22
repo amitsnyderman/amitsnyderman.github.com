@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Got It."
+date: 2008-04-22T00:58:24+00:00
+categories:
+tags:
+- school
+- itp
+---
+That's a fucking pulse!
+
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/pulse.png" />
+
+It helps to have a working IR emitter. Not sure what happened with the first one but it's amazing what happens when you use equipment that works.
+
+It would be nice to use this [filtered amplification circuit][schematic] that I found on [Meng Li's sensor blog][mengli] (even though we don't know each other, thanks Meng Li), but we'll see how much time I end up having by the end of the week.
+
+[mengli]: http://suchamagicworld.blogspot.com/2008/04/still-alive-heartbeat-irsensor-report.html
+[schematic]: http://bp3.blogger.com/_8DN_6bBbGaw/SAKtbLbfQ8I/AAAAAAAAERE/nKRScK1atxU/s1600-h/amplifier.png

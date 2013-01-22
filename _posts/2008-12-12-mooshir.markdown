@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Mooshir"
+date: 2008-12-12T09:12:46+00:00
+categories:
+tags:
+- school
+- itp
+---
+Quickie reference to <a href="http://blogs.nyu.edu/blogs/as860/iameat/uploads/final-presentation.pdf" title="final-presentation.pdf">final presentation</a>.

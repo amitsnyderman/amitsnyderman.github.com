@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Lemming"
+date: 2008-10-16T17:36:39+00:00
+categories:
+tags:
+- school
+- itp
+---
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/lemming.gif" alt="lemming.gif" border="0" width="125" height="201" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/lemming-bike.gif" alt="lemming-bike.gif" border="0" width="316" height="186" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/lemming-chair.gif" alt="lemming-chair.gif" border="0" width="220" height="209" />
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/lemming-walk.gif" alt="lemming-walk.gif" border="0" width="205" height="208" />

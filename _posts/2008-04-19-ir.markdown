@@ -1,0 +1,16 @@
+---
+layout: post
+title: "IR"
+date: 2008-04-19T22:16:32+00:00
+categories:
+- Tips
+tags:
+- school
+- itp
+---
+For the [Infrared Emitters and Detectors](http://www.sparkfun.com/commerce/product_info.php?products_id=241) [SKU#: SEN-00241]:
+
+<span style="color:red">Red</span> = Emitter  
+<span style="color:silver">Clear</span> = Receiver
+
+![uhh?](http://www.sparkfun.com/commerce/images/Main-IRDetector-0.jpg)

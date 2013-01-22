@@ -1,0 +1,48 @@
+---
+layout: post
+title: "RGB."
+date: 2007-10-19T18:20:14+00:00
+categories:
+tags:
+- school
+- itp
+---
+Trying to hit two things at once: this week's lab playing with transistors and my group's midterm task to generate an RGB color from three LEDs. Here's what I've got thus far:
+
+<div class="photos">
+<a href="http://blogs.nyu.edu/blogs/as860/iameat/2007/10/19/rgb.png"><img alt="rgb.png" src="http://blogs.nyu.edu/blogs/as860/iameat/2007/10/19/rgb-thumb.png" width="240" height="220" /></a>
+</div>
+
+The code is simple enough:
+
+<code>
+<pre>
+#define RED_LED 11
+#define GREEN_LED 10
+#define BLUE_RED 9
+
+struct rgb {
+	int red;
+	int green;
+	int blue;
+};
+
+rgb myColor = {125, 125, 125};
+
+void setup() {
+	pinMode(RED_LED, OUTPUT);
+	pinMode(GREEN_LED, OUTPUT);
+	pinMode(BLUE_RED, OUTPUT);
+}
+
+void loop() {
+	analogWrite(RED_LED, myColor.red * 4);
+	analogWrite(GREEN_LED, myColor.green * 4);
+	analogWrite(BLUE_RED, myColor.blue * 4);
+}
+</pre>
+</code>
+
+Next step is to get serial input from Processing which is cross-fading RGB values and mirror the output via the Arduino...
+
+Too bad the LEDs I'm testing with all have different brightness ratings; mostly the color made is all B with little G or R, no matter how much wax paper it gets diffused through.

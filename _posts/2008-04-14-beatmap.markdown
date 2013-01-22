@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Beatmap."
+date: 2008-04-14T22:48:29+00:00
+categories:
+tags:
+- school
+- itp
+---
+Some random sketches, clockwise from the top left:
+
+1. **Bands:** Window of fixed height scrolling left with time. Bands, with thickness determined by node count, modulating in color/opacity/weight/allofem as determined by node's heart rate.
+
+2. **Lava:** Nodes with radiating color(s) whose strength/dissipation determined by node's heart rate. Position of nodes can be evenly distributed and stationary, slowly moving, or moving at a rate determined by node's heart rate.
+
+3. **Waves:** Radio-type waves, riffing on AM and FM wave forms, or a hybrid mix of the two. Amplitude/frequency determined by node's heart rate. Lines can be exaggerated to overlap into a tangled mess.
+
+4. **Litmus:** Strips with bands representing proportion of beats contributed to the system. This probably doesn't scale well with increased nodes as the topography becomes undifferentiated.
+
+<img src="http://blogs.nyu.edu/blogs/as860/iameat/uploads/notes.jpg" />
+
+If the software's designed well, it shouldn't be too difficult to create a handful of renderers, separating the serial input and beat extraction from the representation of the data.
+
+Goals for visualization are:
+
+1. Shows changes over time
+2. Looks good for a system of 2 to ∞
+3. Impression of overall system

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Gosh."
+date: 2008-02-28T20:15:34+00:00
+categories:
+tags:
+- school
+- itp
+---
+Why is it that Wayne Krantz isn't playing 55 Bar anymore? Dude kills.
+
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/vnQkkZiYmLw"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/vnQkkZiYmLw" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>

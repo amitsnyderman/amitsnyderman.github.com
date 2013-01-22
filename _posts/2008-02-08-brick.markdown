@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Brick."
+date: 2008-02-08T13:12:52+00:00
+categories:
+- Tips
+tags:
+- school
+- itp
+---
+**Lesson 1:** *Just because you have a soldering iron and things to solder doesn't mean that they should be soldered.*
+
+(Unless you've got money to burn or have watched someone else do it first.)
+
+The other night I got both the [Lantronix XPort][xport] and the [FTDI Serial to USB breakout board][usb2serial] in the mail. In excited haste, the iron and header pins came out and were put to use. Incorrectly. On the FTDI board I soldered the headers to the wrong pins (well, not totally wrong, but using the 3.3V rather than the 5V pin out that it turns out was needed). Attempts to desolder weren't working too smoothly and in the process a surface-mount capacitor flicked off the board. Great. Way to waste $15.
+
+On the XPort my soldering job was beautiful until realizing that the headers were touching against the metal casing of the XPort, a sure way to short the damn thing. This one I managed to desolder without bricking. Throw in some hot glue and more solder and we've now got a network connection
+
+[xport]: http://www.lantronix.com/device-networking/embedded-device-servers/xport.html
+[usb2serial]: http://www.sparkfun.com/commerce/product_info.php?products_id=718
+
+**Lesson 2:** *Arduinos can be substitute USB to serial devices.*
+
+This is potentially more useful. In having an assignment due within the week and not wanting to pay $30 for FedEx to ship a $15 component, I hooked up the Arduino's RX/TX to the XPort's RX/TX pins (must be reversed, a.k.a. *RX to RX*, *TX to TX*) and setup the power circuit to deliver 3.3V to the XPort. Lights. Yay.
+
+So why then would the XPort not respond to serial messages? Noticed that the Arduino's TX light was flashing like crazy, meaning it was sending out serial data. The previous program (MIDI crystal cup controller) was still burned onto the chip, sending a stream of serial data and thus conflicting with other attempts at serial communication.
+
+Solution? Make sure the Arduino's not doing anything. Some folks take out the chip. I wrote this quickie program:
+
+	void setup() {}
+	void loop() {}
+
+Surprisingly the shit worked.

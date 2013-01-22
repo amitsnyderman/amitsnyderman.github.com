@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Feetee."
+date: 2008-05-13T19:11:02+00:00
+categories:
+- Links
+tags:
+- school
+- itp
+---
+Quite amazing.
+
+<object type="application/x-shockwave-flash" width="400" height="300" data="http://www.vimeo.com/moogaloop.swf?clip_id=993998&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=">	<param name="quality" value="best" />	<param name="allowfullscreen" value="true" />	<param name="scale" value="showAll" />	<param name="movie" value="http://www.vimeo.com/moogaloop.swf?clip_id=993998&amp;server=www.vimeo.com&amp;fullscreen=1&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=" /></object><br /><a href="http://www.vimeo.com/993998?pg=embed&sec=993998">MUTO a wall-painted animation by BLU</a> from <a href="http://www.vimeo.com/blu?pg=embed&sec=993998">blu</a> on <a href="http://vimeo.com?pg=embed&sec=993998">Vimeo</a>.

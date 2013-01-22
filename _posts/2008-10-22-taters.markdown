@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Taters"
+date: 2008-10-22T09:55:35+00:00
+categories:
+- Links
+tags:
+- school
+- itp
+---
+Pretty <a href="http://www.kristofkintera.com/pages-work/we-got-power/we-got-power1.htm">awesome extension</a> of the <a href="http://www.youtube.com/watch?v=AY9qcDCFeVI">lemons-as-battery trick.</a>
+
+<a href="http://www.kristofkintera.com/pages-work/we-got-power/we-got-power1.htm"><img src="http://www.kristofkintera.com/img/we-have-power/we-have-power1.jpg" /></a>
+
+Kintera's other work is pretty cool too.

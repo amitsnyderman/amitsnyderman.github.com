@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Bubbles"
+date: 2008-09-13T14:47:39+00:00
+categories:
+tags:
+- school
+- itp
+---
+<img src="http://farm4.static.flickr.com/3271/2389650311_bc6a6af490_o.jpg" />
+
+And other <a href="https://www.scantronforms.com/">Scantron</a> reference imagery that may induce anxiety in some:
+
+<a href="http://flickr.com/photos/algebraprodigy/416559212/"><img src="http://farm1.static.flickr.com/167/416559212_ccbfc6ea37_t.jpg" /></a>
+<a href="http://flickr.com/photos/dogfoodsugar/5817595/"><img src="http://farm1.static.flickr.com/6/5817595_fba3c299df_s.jpg" /></a>
+<a href="http://flickr.com/photos/flipflopgirl/506017060/"><img src="http://farm1.static.flickr.com/228/506017060_dd786e3234_s.jpg" /></a>
+<a href="http://flickr.com/photos/lovelelisa/1359011084/"><img src="http://farm2.static.flickr.com/1214/1359011084_15d862d492_t.jpg" /></a>
+<a href="http://flickr.com/photos/22742400@N07/2532028197/"><img src="http://farm3.static.flickr.com/2016/2532028197_bdcc003ba5_s.jpg" /></a>
+<a href="http://flickr.com/photos/xxteamsleep/2742183779/"><img src="http://farm4.static.flickr.com/3076/2742183779_cf3a3c3c9c_s.jpg" /></a>
+<a href="http://flickr.com/photos/curt/1270626314/"><img src="http://farm2.static.flickr.com/1112/1270626314_c6fb9ad679_t.jpg" /></a>
+<a href="http://flickr.com/photos/simonehudson/297090845/"><img src="http://farm1.static.flickr.com/122/297090845_22f5c9db55_s.jpg" /></a>
+<a href="http://flickr.com/photos/elliottcable/490802010/"><img src="http://farm1.static.flickr.com/215/490802010_35748a4930_t.jpg" /></a>
+<a href="http://flickr.com/photos/aaron_anderer/2542104806/"><img src="http://farm3.static.flickr.com/2017/2542104806_1ded60dd96_s.jpg" /></a>
+
+Inline question space on this one:
+
+* http://www.scantronforms.com/uploads/images/original/90.jpg

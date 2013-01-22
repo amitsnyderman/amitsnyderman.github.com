@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Serial"
+date: 2008-04-19T21:59:21+00:00
+categories:
+- Tips
+tags:
+- school
+- itp
+---
+So I quickly realized that using <code>screen</code> via the terminal to serially connect to and configure Xbee radios gets really old since it doesn't print what you're typing or render carriage returns correctly. You end up with a mush of characters on a single line. Tom's [posted a Processing applet](http://www.tigoe.net/pcomp/code/category/code/processing/11), presented in *[Making Things Talk](http://www.makingthingstalk.com/)*, that is supposed to make all of this easier. However I'm not a fan of Processing for this type of use (text input and output) and most importantly I didn't like how his applet worked and didn't feel like futzing around in Processing to get it to work like I wanted, so I wrote my own little tool. In Python.
+
+It requires the [PySerial library](http://pyserial.sourceforge.net/) to be installed first. Once installed, you run it like so (assuming you saved the script as *xbee-serial.py*):
+
+	% python xbee-serial.py
+
+This puts you into an interactive shell, which has the prompt:
+
+	xbee%
+
+From here on out, you type your command and hit *enter/return* to send your message. Much like other Unix shells, there's command history and some basic help.
+
+Unfortunately PySerial doesn't let you list out available serial ports so you'll need to know the name of your port and manually connect to it:
+
+	xbee% serial /dev/tty.usbserial-A4001ib8
+
+Then connect as normal:
+
+	xbee% +++
+
+It'll return the usual:
+
+	OK
+
+From there it's the same as usual, using the AT command set to talk to your XBee radio.
+
+	#!/usr/bin/env python
+	
+	import sys, time, cmd, serial
+	
+	class XBeeShell(cmd.Cmd):
+		def __init__(self):
+			cmd.Cmd.__init__(self)
+			self.prompt = "xbee% "
+			self.serial = serial.Serial()
+		
+		def default(self, p):
+			if not self.serial.isOpen():
+				print "You must set a serial port first."
+			else:
+				if p == '+++':
+					self.serial.write(p)
+					time.sleep(2)
+				else:
+					self.serial.write('%s\r' % p)
+					time.sleep(0.5)
+				
+				output = ''
+				while self.serial.inWaiting():
+					output += self.serial.read()
+				print output.replace('\r', '\n').rstrip()
+		
+		def do_serial(self, p):
+			"""Set the serial port, e.g.: /dev/tty.usbserial-A4001ib8"""
+			self.serial.port = p
+			self.serial.open()
+			print 'Opening serial port: %s' % p
+		
+		def do_exit(self, p):
+			"""Exits from the XBee serial console"""
+			self.serial.close()
+			return 1
+	
+	if __name__ == '__main__':
+		shell = XBeeShell()
+		shell.cmdloop()
+

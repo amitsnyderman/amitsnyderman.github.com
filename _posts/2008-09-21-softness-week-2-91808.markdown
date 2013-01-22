@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Softness: Week 2: 9/18/08"
+date: 2008-09-21T21:07:20+00:00
+categories:
+tags:
+- school
+- itp
+---
+**Assignment:** [Design a "module"](http://itp.nyu.edu/softness/2008/w02.html)
+
+## What is a module?
+
+As an individual object, does it matter what the form of a module is? How is it made known how a module should interact with another? Do they care what the other does (encapsulated functionality)? Interfaces are known, defined, published. There exists an implicit trust.
+
+> A module is a self-contained component of a system, which has a well-defined interface to the other components; something is modular if it includes or uses modules which can be interchanged as units without disassembly of the module. Design, manufacture, repair, etc. of the modules may be complex, but this is not relevant; once the module exists, it can easily be connected to or disconnected from the system. --[WikiPedia](http://en.wikipedia.org/wiki/Module)
+
+What should the specificity of modules be? If a module can fit in only one context, is it still a module? If a context allows for only one type of module... How universal must an object be? How far can one decompose an object / module into yet further modules? What is the core atomic particle?
+
+Can a module exist on its own? Can it be its own object?
+
+## Module braindump
+
+* **Computers / Technology:** programming APIs, polymorphism, UNIX pipes, network nodes, service oriented architecture (SOA), fractals / recursion / generative
+* **Body / Biology / Physics:** bones, cells, metabolic pathways, neuronal pathways / cognitive processes, neurotransmitters, sub-atomic particles
+* **Language:** narrative, stories, chapters, episodes, paragraphs, sentences, words, phonemes, letters
+* **Music:** melody / notes, harmony / chords
+* **Sports:** positions, football
+* **Architecture:** blocks, columns, joist, tetrahedron
+

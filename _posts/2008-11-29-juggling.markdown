@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Juggling"
+date: 2008-11-29T13:48:05+00:00
+categories:
+tags:
+- school
+- itp
+---
+Two weeks to work on it and I've yet to really start anything for our project dealing with "meaning, narrative, presence, awareness". I'm juggling ideas inspired by two recent occasions: the recent passing of a friend and coworker and a Thanksgiving in the company of many older adults.
+
+At the memorial for my friend, another coworker read the poem ["The Dash" by Linda Ellis](http://lindaellis.typepad.com/my_weblog/2007/11/the-dash.html), which opens:
+
+> I read of a man who stood to speak  
+> at the funeral of a friend.  
+> He referred to the dates on her tombstone  
+> from the beginning...to the end.
+
+> He noted that first came the date of her birth  
+> and spoke of the following date with tears,  
+> but he said what mattered most of all  
+> was the dash between those years.
+
+Calculating the deceased's age at time of death is often my first inclination at a tombstone. It's often the only thing you know about the person, and your attempts to justify what that age means to you, considering "where was I" or "where will I be" at that age.
+
+So anyways, one idea is to redesign a tombstone, rendering more significance to the dash.
+
+<img src="http://www.babygadget.net/suitcase-couverture.jpg" />
+
+The other idea also touches on aging, creating a way for objects to communicate their purposes, lifetime, travels, hardships, use, remaining endurance. People age, in many different ways. They wrinkle, turn gray, lose hair, hunch. To different extremes, in different patterns and at different rates.
+
+Can other objects "age"? Communicate the story of their lives thus far? E.g.: sagging couch, peeling paint, stained t-shirt. How can you synthetically communicate decay, or use existing properties of a material's aging, to tell the story of an object. Or capture the detritus that builds over time, such as postmarks and stamps on an envelope, dents and stickers protecting luggage, or fancy glass bongs that develop color as they're smoked.
+
+Not quite sure what that would look like yet.
