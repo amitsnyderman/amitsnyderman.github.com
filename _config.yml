@@ -6,3 +6,5 @@ author:
 
 permalink: /:year/:month/:day/:title
 pygments: true
+
+include: [".well-known"]
