@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9MWEK5HX2T.com.amitsnyderman.sonos.partyshuffle",
+        "paths": ["/party-shuffle/sonos/oauth"]
+      }
+    ]
+  }
+}
