@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "9MWEK5HX2T.com.amitsnyderman.sonos.partyshuffle",
-        "paths": ["/party-shuffle/sonos/oauth"]
+        "appID": "9MWEK5HX2T.com.amitsnyderman.toddletunes",
+        "paths": ["/toddle-tunes/sonos/oauth"]
       }
     ]
   }
